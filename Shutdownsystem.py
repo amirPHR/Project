@@ -14,7 +14,7 @@ def system_yes():
     label.configure(os.system('shutdown /s /t 0'))
 
 def system_no():
-    print('Your system not shut down')
+    label.configure(print('Your system not shut down'))
 
 #Button 
 b1 = tk.Button(text = 'Yes' , width = 15 , command = system_yes)
